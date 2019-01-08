@@ -19,7 +19,7 @@ end
 
 
 def take_a_number(katz_deli, name)
-  
+  binding.pry
   if katz_deli.size == 0
     katz_deli << other_deli
     puts "Welcome, #{other_deli}. You are number 1 in line."
