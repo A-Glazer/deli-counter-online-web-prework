@@ -2,7 +2,7 @@ katz_deli = []
 other_deli = ["Logan", "Avi", "Spencer"]
 another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 
-
+require 'pry'
 def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
@@ -19,6 +19,7 @@ end
 
 
 def take_a_number(katz_deli, other_deli)
+  
   if katz_deli.size == 0
     katz_deli << other_deli
     puts "Welcome, #{other_deli}. You are number 1 in line."
